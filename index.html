@@ -8,10 +8,11 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1>Hello World, we are software developers!</h1>
-    <div>
-      <h1 id="title">freeCodeCamp Survey Form</h1>
-      <h5>Thank you for taking the time to help us improve the platform</h5>
+    <div id="continer">
+      <header class="header">
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </header>
     </div>
     <form method="post" name="form-control" id="survey-form">
       <div class="form-group">
@@ -27,7 +28,7 @@
       </div>
       <div class="form-group">
         <label for="age" id="age-label">Age <span>(Optional)</span></label>
-        <input type="number" name="age" id="age" class="form-control">
+        <input type="number" name="age" id="age" class="form-control" paceholder>
       </div>
       <div class="form-group">
         <label for="options" id="options-label">Which option best describes your current role?</label>
@@ -78,7 +79,7 @@
         <textarea id="comment_area" class ="textarea_forComment" name="commentValue"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" id="submitedbutton">Submit Data</button>
+        <button type="submit" id="submit">Submit Data</button>
       </div>
     </form>
     <!--
