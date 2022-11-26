@@ -34,3 +34,24 @@ body{
   padding: 0.625rem;
   resize: vertical;
 }
+
+label {
+    display: block;
+}
+
+#survey-form {
+    width: 50%;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: #282847;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 20px;
+    background-color: #37AF65;
+    border: #37AF65;
+    border-radius: 5px;
+}
